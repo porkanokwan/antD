@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'antd/dist/antd.css'; // ต้อง import มา เพื่อให้ css ใน ant-design ทำงาน
 
 ReactDOM.render(
   <React.StrictMode>
